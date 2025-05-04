@@ -79,7 +79,7 @@ The codebase is designed to be modular and easy to use:
 ### Second Submission : 0.92 private score
 <img width="900" alt="second" src="https://github.com/user-attachments/assets/5d63ef62-f62e-4978-8e88-bffe40f6fead" />
 
-- With Early Stopping or Save Model could be able to get better score
+- With Early Stopping or Save Model would be able to get better score
 
 
 
