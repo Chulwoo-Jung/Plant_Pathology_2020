@@ -8,7 +8,7 @@ This project implements a deep learning solution for plant pathology classificat
 
 ### Model Architecture
 - EfficientNet-B0 as the base model
-- Custom head with dropout and linear layers for classification
+- Custom head with linear layers for classification
 - Pre-trained weights from ImageNet for better feature extraction
 
 ### Training Pipeline
@@ -29,7 +29,7 @@ This project implements a deep learning solution for plant pathology classificat
   - Validation: batch_size=64, shuffle=False, num_workers=4
 
 ### Optimization
-- Optimizer: AdamW
+- Optimizer: Adam
 - Learning Rate Scheduler: ReduceLROnPlateau
 - Loss Function: CrossEntropyLoss
 
